@@ -2,6 +2,7 @@
 layout: post
 title: "Exploring OpenGL: The WalkerOGL Project"
 date: 2023-12-18
+author: 'Walker McGilvary'
 ---
 
 I'm excited to share my latest project, **WalkerOGL**. This endeavor is a testament to my interest in computer graphics and my journey in learning OpenGL. The project is a work in progress, where I am developing my own rendering engine using GLAD and GLFW.
@@ -17,6 +18,22 @@ I'm excited to share my latest project, **WalkerOGL**. This endeavor is a testam
 - **Progression to 3D:** Implemented perspective projection to render a 3D cube.
 
 ![cube](https://i.imgur.com/Mgrv5NU.png)
+
+After understanding how the view frustum works, projecting the cube to the near plane is intuitive. It can be derived by considering similar triangles, with the specified FOV.
+```cpp
+// Projection transformation: Create a perspective projection matrix
+float fov = radians(45.0f);
+float nearPlane = 1.0f;
+float farPlane = 100.0f;
+float aspectRatio = static_cast<float>(SCR_WIDTH) / static_cast<float>(SCR_HEIGHT);
+mat4 projection(
+    1 / (aspectRatio * tan(fov / 2)), 0, 0, 0,
+    0, 1 / (tan(fov / 2)), 0, 0,
+    0, 0, -(farPlane + nearPlane) / (farPlane - nearPlane), -2 * farPlane * nearPlane / (farPlane - nearPlane),
+    0, 0, -1, 0
+);
+projection = transpose(projection); //because glm is column major :(
+```
 
 - **Camera Controls:** Added simple camera controls to navigate around the 3D space.
 

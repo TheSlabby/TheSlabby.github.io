@@ -17,8 +17,7 @@ Here's a list of my latest blog posts:
 
 ### Contact
 
-Feel free to reach out to me!
+Feel free to reach out to me:
 
 - **GitHub:** [@TheSlabby](https://github.com/TheSlabby)
-
-Thank you for visiting my site!
+- **LinkedIn:** [@walker-mcgilvary](https://www.linkedin.com/in/walker-mcgilvary) 
