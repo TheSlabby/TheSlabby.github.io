@@ -2,8 +2,6 @@
 layout: default
 ---
 
-# Walker McGilvary
-
 ## Welcome to My Website
 
 Hello! I'm Walker, a Computer Engineering student at Auburn University with a passion for technology, programming, and cybersecurity. I enjoy working on various projects, from web development to computer graphics, and I'm always eager to learn and apply new skills.

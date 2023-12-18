@@ -4,8 +4,6 @@ title: "Exploring OpenGL: The WalkerOGL Project"
 date: 2023-12-18
 ---
 
-# Exploring OpenGL: The WalkerOGL Project
-
 I'm excited to share my latest project, **WalkerOGL**. This endeavor is a testament to my interest in computer graphics and my journey in learning OpenGL. The project is a work in progress, where I am developing my own rendering engine using GLAD and GLFW.
 
 ## Project Overview
@@ -13,7 +11,13 @@ I'm excited to share my latest project, **WalkerOGL**. This endeavor is a testam
 **WalkerOGL** started as an experiment with basic OpenGL functionalities. Here's a glimpse of what I've accomplished so far:
 
 - **Initial Rendering:** Started with rendering a simple triangle to understand the basics.
+
+![tri](https://i.imgur.com/Ydxuixe.png)
+
 - **Progression to 3D:** Implemented perspective projection to render a 3D cube.
+
+![cube](https://i.imgur.com/Mgrv5NU.png)
+
 - **Camera Controls:** Added simple camera controls to navigate around the 3D space.
 
 ## Current Focus
