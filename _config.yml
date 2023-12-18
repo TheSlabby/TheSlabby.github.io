@@ -22,13 +22,13 @@ title: Walker's Portfolio
 email: walker.mcgilvary@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Portfolio Website
-baseurl: "/TheSlabby.github.io/" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://TheSlabby.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 domain: "TheSlabby.github.io"
 github_username:  theslabby
 
 # Build settings
-theme: hacker
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
