@@ -16,7 +16,6 @@ I'm excited to share my latest project, **WalkerOGL**. This endeavor is a testam
 ![tri](https://i.imgur.com/Ydxuixe.png)
 
 - **Progression to 3D:** Implemented perspective projection to render a 3D cube.
-
 ![cube](https://i.imgur.com/Mgrv5NU.png)
 
 After understanding how the view frustum works, projecting the cube to the near plane is intuitive. It can be derived by considering similar triangles, with the specified FOV.
@@ -34,6 +33,9 @@ mat4 projection(
 );
 projection = transpose(projection); //because glm is column major :(
 ```
+
+This diagram shows the view frustum from the side, and it is clear how `y/f = Y/Z = tan(theta)`.
+![similarTri](https://www.researchgate.net/publication/254666642/figure/fig4/AS:614080926736385@1523419710190/Perspective-projection-and-similar-triangles-A-cross-section-of-threedimensional-space.png)
 
 - **Camera Controls:** Added simple camera controls to navigate around the 3D space.
 
