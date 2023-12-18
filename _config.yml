@@ -26,10 +26,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://TheSlabby.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 domain: "TheSlabby.github.io"
 github_username:  theslabby
+author: Walker McGilvary
 
 # Build settings
 theme: jekyll-theme-hacker
-plugins:
+
+github:
+  is_project_page: false
+
+  #plugins:
   #  - jekyll-feed
 
 # Exclude from processing.
