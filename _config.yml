@@ -28,7 +28,7 @@ domain: "TheSlabby.github.io"
 github_username:  theslabby
 
 # Build settings
-theme: minima
+theme: hacker
 plugins:
   - jekyll-feed
 
