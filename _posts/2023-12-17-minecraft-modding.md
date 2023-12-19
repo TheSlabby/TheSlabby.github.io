@@ -4,7 +4,7 @@ title: "Minecraft Modding: Slab Client Mod and AmitySMP Plugin"
 date: 2023-12-17
 ---
 
-I'm excited to share my recent foray into Minecraft modding, where I developed a PvP client mod called **Slab Client** and a server plugin named **AmitySMP**. This journey has been instrumental in enhancing my Java programming skills, particularly in mastering Java's Gradle system for dependencies and building, as well as Maven for the server plugin.
+Recently I've dived into Minecraft server and client modding, where I developed a PvP client mod called **Slab Client** and a server plugin named **AmitySMP**. This journey has been instrumental in enhancing my Java programming skills, particularly in mastering Java's Gradle system for dependencies and building, as well as Maven for the server plugin.
 
 ## Slab Client: A PvP Mod for Minecraft
 
@@ -121,5 +121,11 @@ For AmitySMP, I also integrated Discord functionalities and set up a config file
 
 ## Conclusion
 
-Overall, these projects have significantly improved my understanding of Minecraft client and server modifications. They have also deepened my knowledge of Java programming, particularly in using Gradle and Maven for build management. I'm looking forward to applying these skills in future projects and exploring more possibilities in the realm of game modding.
+Overall, these projects have significantly improved my understanding of Minecraft client and server modifications. They have also deepened my knowledge of Java programming, particularly in using Gradle and Maven for build management. The technical challenges encountered and overcome in these projects have been invaluable in enhancing my software development skills.
+
+For those interested in exploring the code or contributing, you can find the repositories for these projects on GitHub:
+- **Slab Client**: [Slab Client on GitHub](https://github.com/TheSlabby/Slab-Client)
+- **AmitySMP**: [AmitySMP on GitHub](https://github.com/TheSlabby/AmitySMP)
+
+I'm looking forward to applying these skills in future projects and exploring more possibilities in the realm of game modding.
 
