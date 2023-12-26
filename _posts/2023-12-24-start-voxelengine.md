@@ -4,12 +4,12 @@ title: "Creating a Voxel Engine with OpenGL"
 date: 2023-12-24
 ---
 
-After learning the fundamentals of OpenGL in C++, I've started a new project: **VoxelEngine**. I've laid the foundation for a voxel engine by integrating model importing with ASSIMP and implementing advanced lighting effects for the rendered voxels. This first step marks the beginning of my journey with OpenGL and showcases the potential of realistic lighting in voxel-based computer graphics.
+After learning the fundamentals of OpenGL in C++, I've started a new project: **VoxelEngine**. I've laid the foundation for a voxel engine by integrating model importing with STB and implementing advanced lighting effects for the rendered voxels. This first step marks the beginning of my journey with OpenGL and showcases the potential of realistic lighting in voxel-based computer graphics.
 
 ## Creating Voxels
 
 ![voxelengine texture start](https://github.com/TheSlabby/TheSlabby.github.io/assets/33563846/f545cfda-7d16-41a4-95e4-bcdf74ca78b7)
-The first step in this project is to render a textured voxel (cube). Using ASSIMP, I loaded a simple 16x16 texture atlas for all the voxels I'll use in this game. This approach is foundational in creating the diverse and intricate world of my voxel engine, providing a visual base for the complex systems to come.
+The first step in this project is to render a textured voxel (cube). Using `stb_image`, I loaded a simple 16x16 texture atlas for all the voxels I'll use in this game. This approach is foundational in creating the diverse and intricate world of my voxel engine, providing a visual base for the complex systems to come.
 
 
 ## Chunks and Terrain Generation with Perlin Noise
