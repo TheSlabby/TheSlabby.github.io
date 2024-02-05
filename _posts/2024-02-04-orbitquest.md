@@ -10,7 +10,7 @@ date: 2024-02-04
 
 The main feature of the web app is the 3D visualization of the ISS location in real-time. This is done through periodic API requests to accurately represent the ISS position. There is also a "Picture of the Day" page which shows NASA's picture of the day.
 
-![Homepage](https://private-user-images.githubusercontent.com/33563846/302117217-65e0e480-ccb9-4998-b204-4e9fec270fb4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDcxMjg5NTQsIm5iZiI6MTcwNzEyODY1NCwicGF0aCI6Ii8zMzU2Mzg0Ni8zMDIxMTcyMTctNjVlMGU0ODAtY2NiOS00OTk4LWIyMDQtNGU5ZmVjMjcwZmI0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjA1VDEwMjQxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVhOGU1MmRmNTI5NmRjMWU2NWE0NTNmNmZlZDQ4NDhmYjgyYmI4YzYwMjIwZGY0ZDA2ZjgwNDk5YmFjODQzNzImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.plgEI5E7jQ-jpUHMqNuJRtDML6aY---98RkRi5U8kfs)
+![Homepage](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/754/233/datas/gallery.jpg)
 
 ![Tracker](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/753/940/datas/original.png)
 
@@ -37,6 +37,7 @@ With theta and phi, we just need rho, which I set to a constant about 2x the rad
 - **Django Templates:** The front-end was rendered with Django Templates. Material bootstrap was also used to make the UI visually appealing.
 - **Three.js:** The client-side JavaScript utilized the `three.js` for 3D graphics.
 - **Hosting and Domain:** The server was hosted on Digital Ocean, with the domain acquired from GoDaddy.
+- **Nginx and Gunicorn:** The website was deployed with Nginx and Gunicorn WSGI. We also secured the website with TLS with Certbot.
 - **API Integration:** 3 APIs were used: NASA picture of the day, ISS coordinates, and reverse geocoding.
 
 
